@@ -1,0 +1,108 @@
+body {
+	font-family: montserrat;
+	background-color: white;
+	color: white;
+	height: 100vh;
+	background: #E6DADA;  
+	background: -webkit-linear-gradient(to right, #9e768f, #9fa4c4);  
+	background: linear-gradient(to right, #9e768f, #9fa4c4); 
+}
+
+/*Opmaak titel*/
+h1 {
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+/*Opmaak van de melding of wel of niet veilig is om te landen*/
+#melding {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	font-weight: 300;
+}
+
+/*Opmaak van de div box van met de weersinformatie*/
+#weather {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 85%;
+	background-color: black;
+	margin: auto;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+/*Opmaak van de titel van de div box met de weersinformatie*/
+#plaats {
+	margin-bottom: -20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	font-size: 22px;
+}
+
+/*Opmaak van het blok waar de minimum, maximun en actuele tempratuur in staat*/
+#tempratuurBox {
+	display: flex;
+	align-items: center;
+}
+
+/*Opmaak van de weergeving van de minimun en maximun tempratuur*/
+#minmax {
+	border-right: solid 1px white;
+	padding-right: 15px;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+/*Opmaak van de weergeving van de actuele tempratuur*/
+#tempratuur {
+	margin-left: 10px;
+	font-size: 40px;
+	font-weight: 600;
+	padding-left: 10px;
+}
+
+/*Opmaak van de weergeving van de actuele windsnelheid*/
+#wind {
+	margin-top: -26px;
+	font-size: 19px;
+	font-weight: 300;
+}
+
+/*Opmaak van de div box van met de fiets informatie*/
+#bike {
+	width: 85%;
+	background-color: black;
+	margin: auto;
+	border-radius: 5px;
+	height: 174px;
+	margin-bottom: 50px;
+}
+
+/*Opmaak van de titel van de box met de fiets informatie*/
+#fietsverhuur {
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+}
+
+/*Opmaak van de melding over de fiets informatie*/
+#aantal {
+	text-align: center;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 19px;
+	font-weight: 300;
+}

@@ -1,0 +1,103 @@
+/*layout van de mobiel*/
+body {
+	display: grid;
+ 	grid-template-columns: 1fr;
+  	grid-template-areas: 
+  		"header"
+  		"melding"
+	    "weer"
+	    "fiets"; 
+}
+
+.header {
+	grid-area: header;
+}
+
+.melding {
+	grid-area: melding;
+}
+
+.weer {
+	grid-area: weer;
+}
+
+.fiets {
+	grid-area: fiets;
+}
+
+/*layout van een tablet */
+@media only screen and (min-width: 601px){
+	body{
+	    display: grid;
+	    grid-template-columns: 1fr 1fr;
+	    grid-gap: 10px;
+	    grid-template-areas: 
+	      "header header"
+	      "melding melding"
+	      "weer fiets";
+  	}  
+
+  	h1 {
+  		margin-bottom: 0px;
+  	}
+
+  	#melding {
+	  	font-size: 25px;
+	  	margin-left: 60px;
+	  	margin-right: 60px;
+  	}
+
+  	#weather {
+  		margin-bottom: 70px;
+  	}
+
+  	#bike {
+  	  	margin-bottom: 70px;
+  	}
+}
+
+/*layout van een lapot*/
+@media only screen and (min-width: 1024px){
+	body {
+		margin-left: 90px;
+		margin-right: 90px;
+	}
+
+	h1 {
+		margin-bottom: 40px;
+		font-size: 40px;
+	}
+
+	#melding {
+	  	font-size: 22px;
+	  	margin-top: -40px;
+  	}
+
+   #weather {
+  		margin-bottom: 150px;
+  	}
+
+  	#bike {
+  	  	margin-bottom: 150px;
+  	}
+}
+
+/*layout van een desktop*/
+ @media only screen and (min-width: 1363px){
+	body {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	h1 {
+		margin-bottom: 80px;
+	}
+
+  	#weather {
+   		margin-top: 50px;
+  	}	
+
+  	#bike {
+  		margin-top: 50px;
+  	}
+}
